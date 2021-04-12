@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/dialogOneButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialog One Button" />
+
+    <Button
+        android:id="@+id/dialogTwoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialog Two Button" />
+
+    <Button
+        android:id="@+id/dialogThreeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialog Three Button" />
+
+    <Button
+        android:id="@+id/dialogList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialog List" />
+
+    <Button
+        android:id="@+id/dialogListSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialog List Switch" />
+
+    <Button
+        android:id="@+id/dialogListChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialog List Choice" />
+
+    <Button
+        android:id="@+id/dialogAutomaticClosing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialog Automatic Closing 5s" />
+
+    <Button
+        android:id="@+id/dialogRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialog Rating" />
+
+    <Button
+        android:id="@+id/dialogConnection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialog Connection Activity" />
+</LinearLayout>
