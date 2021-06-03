@@ -1,58 +1,58 @@
 package ru.android.simpledialog.utils
 
-import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentActivity
 import ru.android.simpledialog.dialog_class.*
 
-fun Fragment.showDialogOneButton() {
+fun FragmentActivity.showDialogOneButton() {
     val dialog = DialogWarningOneButton()
-    val manager = childFragmentManager
+    val manager = supportFragmentManager
     dialog.show(manager, "dialogOne")
 }
 
-fun Fragment.showDialogTwoButton() {
+fun FragmentActivity.showDialogTwoButton() {
     val dialog = DialogWarningTwoButton()
-    val manager = childFragmentManager
+    val manager = supportFragmentManager
     dialog.show(manager, "dialogTwo")
 }
 
-fun Fragment.showDialogThreeButton() {
+fun FragmentActivity.showDialogThreeButton() {
     val dialog = DialogWarningThreeButton()
-    val manager = childFragmentManager
+    val manager = supportFragmentManager
     dialog.show(manager, "dialogThree")
 }
 
-fun Fragment.showDialogList() {
+fun FragmentActivity.showDialogList() {
     val dialog = DialogList()
-    val manager = childFragmentManager
+    val manager = supportFragmentManager
     dialog.show(manager, "dialogList")
 }
 
-fun Fragment.showDialogListSwitch() {
+fun FragmentActivity.showDialogListSwitch() {
     val dialog = DialogListSwitch()
-    val manager = childFragmentManager
+    val manager = supportFragmentManager
     dialog.show(manager, "dialogListSwitch")
 }
 
-fun Fragment.showDialogListChoice() {
+fun FragmentActivity.showDialogListChoice() {
     val dialog = DialogListChoice()
-    val manager = childFragmentManager
+    val manager = supportFragmentManager
     dialog.show(manager, "dialogListChoice")
 }
 
-fun Fragment.showDialogAutomaticClosing() {
+fun FragmentActivity.showDialogAutomaticClosing() {
     val dialog = DialogAutomaticClosing()
-    val manager = childFragmentManager
+    val manager = supportFragmentManager
     dialog.show(manager, "dialogAutomaticClosing")
 }
 
-fun Fragment.showDialogRating() {
+fun FragmentActivity.showDialogRating() {
     val dialog = DialogRating()
-    val manager = childFragmentManager
+    val manager = supportFragmentManager
     dialog.show(manager, "dialogConnection")
 }
 
-fun Fragment.showDialogConnection() {
+fun FragmentActivity.showDialogConnection() {
     val dialog = DialogConnectionActivity()
-    val manager = childFragmentManager
+    val manager = supportFragmentManager
     dialog.show(manager, "dialogConnection")
 }
